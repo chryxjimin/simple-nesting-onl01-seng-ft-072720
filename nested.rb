@@ -41,6 +41,7 @@ def alan_kay_is_known_for
 end
 
 def dennis_ritchies_language
+	binding.pry
 	programmer_hash =
  		{
         :grace_hopper => {
@@ -57,7 +58,6 @@ def dennis_ritchies_language
         }
      }
 		 programmer_hash[:dennis_ritchies][:languages][0]
-		binding.pry
      programmer_hash
 end
 
